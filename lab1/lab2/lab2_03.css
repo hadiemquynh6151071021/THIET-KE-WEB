@@ -1,0 +1,16 @@
+form{
+	border:1px solid black;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+	line-height:4;
+	text-align: left;
+	color:while;
+	background: lightblue;
+}
+table{
+	width:150%;
+}
+.right{
+	text-align:right;
+}

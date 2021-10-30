@@ -1,0 +1,54 @@
+#topleff{
+	text-align:left;
+}
+#topright{
+	text-align:center;
+}
+#darkblue{
+	background-image:url('bkgd.gif');
+	display:flex;
+	margin-bottom:4px;
+	margin-top:40px;
+}
+h1{
+	margin-left:40%;
+	color:white;
+}
+#topnav{
+	padding-top:3px;
+	padding-bottom:3px;
+	margin-top:0px;
+	margin-right:0px;
+	background:lightblue;
+}
+#navbar{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	height:125px;
+}
+#navbar li{
+	margin-left:15px;
+	margin-right:15px;
+	display:inline;
+}
+#clear{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#maincontent{
+	padding-top:2%;
+	text-align:center;
+	padding-bottom:18%;
+}
+#footer{
+	margin-bottom=0px;
+	background-color:blue;
+}
+html{
+	height:100%;
+}
+	

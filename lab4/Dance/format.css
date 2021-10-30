@@ -1,0 +1,29 @@
+#navbar li{
+	display:inline-block;
+	width:150px;
+	height:20px;
+}
+body{
+	background-color:lightblue;
+}
+h2{
+	font-weight:bold;
+}
+.x{
+	display:block;
+}
+.x:hover{
+	background:blue;
+	color:white;
+}
+#topnav{
+	background:white;
+}
+#links{
+	float:left;
+}
+#content{
+	margin-left:100px;
+}
+
+

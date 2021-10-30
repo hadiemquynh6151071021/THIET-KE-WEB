@@ -1,0 +1,16 @@
+th{
+	background:lightblue;
+}
+.center1, .center2{
+	text-align:center;
+}
+.center1{
+	height:70px;
+}
+.height{
+	height:100px;
+	width:300px;
+}
+table{
+	font-family:cambria;
+}

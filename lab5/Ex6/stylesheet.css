@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+
+}
+body {
+  position: absolute;
+  left: 300px;
+
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+color: hotpink;
+}
+
+/* Layout */
+.examples {
+  display: block;
+  
+}
+.examples h2 {
+margin-bottom: 20px;flex-wrap: wrap;
+left: 400px !important;
+}
+/* phần background trắng che line bên dưới */
+.examples h2 span {
+
+}
+/* line của h2 */
+.examples h2:after {
+
+}
+.examples .example-list li {
+  display: inline-block;
+}
+.examples .example-list li:nth-child(4n) {
+  display: inline-block;
+}

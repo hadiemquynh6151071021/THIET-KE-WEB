@@ -1,0 +1,78 @@
+/* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+   
+  }
+  body {
+    background-color:rgb(228, 225, 222);
+    
+  }
+  .clearfix {
+    zoom: 1;
+    
+  }
+  .clearfix:after {
+	border-top: 5px solid #a5f2cd;
+    display: block;
+    height: 5px;
+    content: " ";
+    width: 30px;
+    position: absolute;
+    left:50%;
+    top: 10%;
+    
+  }
+  /* Layout */
+  .client {
+    margin-top: 30px;
+  }
+  .client h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+	margin-top:40px;
+  }
+  /* Line cho h2 */
+  .client h2:after {
+    border-bottom:5px solid #b6fcd9;
+  }
+  .client .client-list li {
+    display: inline-flex;
+    margin-top: 100px;
+    margin-left: 100px;
+
+  }
+  .client .client-list li:nth-child(3n) {
+    margin-left: 100px;
+  }
+  .client .client-list li .avatar {
+    float: left;
+   
+   
+   
+  }
+  .client .client-list li .avatar img {
+    border-radius: 100%;
+  }
+  .client .client-list li .message {
+    float: left;
+    margin-left: 15px;
+    width: 250px;
+  }
+   
+  .client .client-list li .message .detail {
+    font-style: italic;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(151, 151, 151);
+  }
+  .client .client-list li .message .name {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 99, 99);
+  }

@@ -1,0 +1,70 @@
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+  }
+  body {
+	background:lightgray;
+  }
+  .clearfix {
+    zoom: 1;
+  }
+  .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+  }
+  
+  /* Layout */
+  .service {
+	text-align:left;
+  }
+  .service .head-section {
+	background:lightblue;
+	padding-top:20px;
+	padding-bottom:50px;
+  }
+  .service .head-section h2 {
+	margin-left:50px;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+  }
+  .service .service-list {
+	display:flex;
+  }
+  .service .service-list li {
+	background:white;
+	padding-top:10px;
+	margin-right:20px;
+	margin-left:20px;
+	margin-top:-30px;
+	padding-bottom:30px;
+  }
+  .service .service-list li:last-child {
+    margin-right: 50px;
+  }
+  .service .service-list li .icon {
+	margin-bottom:50px;
+  }
+  .service .service-list li .icon i {
+  }
+  .service .service-list li h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	margin-left:5px;
+	margin-bottom:10px;
+  }
+  .service .service-list li .text{
+	margin-left:5px;
+	color:lightgrey;
+	font-family: 'Roboto', sans-serif;
+  }
+  .service .service-list li:first-child {
+    margin-left: 50px;
+  }

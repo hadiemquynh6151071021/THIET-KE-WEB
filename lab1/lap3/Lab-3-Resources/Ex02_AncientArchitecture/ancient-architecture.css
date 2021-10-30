@@ -1,0 +1,44 @@
+body{
+	background-color:#F5E6AB;
+	
+}
+nav ul li{
+	display: inline;
+	color:black;
+	font-family: 'Inter', sans-serif;
+	font-weight:bold;
+	font-size:22px;
+}
+ul{
+	
+	text-align:center;
+	
+}
+.home{
+	color:#57637D;
+}
+h1{
+	margin-top:40px;
+	margin-bottom:30px;
+	font-family: 'Indie Flower', cursive;
+	text-align:center;
+}
+img{
+	float:center;
+	width:700px;
+	height:300px;
+}
+.img-container{
+	text-align:center;
+	margin-top:70px;
+	margin-bottom:100px;
+}
+li{
+	margin-left:15px;
+	margin-right:15px;
+}
+a{
+	text-decoration: none;
+}
+
+
